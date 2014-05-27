@@ -6,12 +6,12 @@ Why bother logging ugly Messages to your console when you can also log fancy bul
 
 Just include the amazingly small bulllog.min.js into your page and initialize it as followed
 
-````
+```javascript
 var log = new Bulllog({
   'font-size': '3em',
   color: '#1393d5',
   background: '#333',
-	padding: '.25em'
+  padding: '0.25em'
 });
 
 log.msg('VIVA LA BULLGIT!');
