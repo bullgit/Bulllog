@@ -15,7 +15,7 @@ var log = new Bulllog({
 });
 
 log.msg('VIVA LA BULLGIT!');
-````
+```
 
 You can pass any CSS property value pair you'd like. If it works or not is up to your console I guess. Notize that any property with a hypen (-) need to be written in quotes, just like "font-size". There are no default values so log.msg('test') will give you a standard console log. 
 **Notice:** This works only in Chrome.
